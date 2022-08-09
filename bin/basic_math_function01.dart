@@ -6,5 +6,14 @@
   Returns:test
       side (double): the side of the square
 */
+import 'dart:math';
 
-void main() {}
+double func(int a) {
+  double x;
+  x = sqrt(a);
+  return x;
+}
+
+void main() {
+  print(func(16));
+}
