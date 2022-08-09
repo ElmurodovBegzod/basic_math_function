@@ -7,4 +7,12 @@
     Returns:
         result (double): multiply x by the sine of y. Round the result.
 */
-void main() {}
+import 'dart:math';
+
+int func(x, double y) {
+  return (x * sin(y)).round();
+}
+
+void main() {
+  print(func(8, pi / 6));
+}
