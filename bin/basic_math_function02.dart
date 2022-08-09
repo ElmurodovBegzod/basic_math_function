@@ -8,9 +8,9 @@
 */
 import 'dart:math';
 
-double func(int r) {
+double func(int R) {
   double L;
-  L = 2 * r * pi;
+  L = 2 * R * pi;
   return L;
 }
 
