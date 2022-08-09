@@ -8,12 +8,11 @@
 */
 import 'dart:math';
 
-double func(int a) {
-  double x;
-  x = sqrt(a);
+double func(a) {
+  double x = a * 1 / 4;
   return x;
 }
 
 void main() {
-  print(func(25));
+  print(func(16));
 }
