@@ -16,7 +16,7 @@ num func(double x, double y) {
 
   a = pow(a, 2);
   b = pow(b, 2);
-  int c = (a + b).round();
+  double c = (a + b).toDouble();
   return c;
 }
 
